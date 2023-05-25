@@ -29,7 +29,7 @@ class SportsViewModel : ViewModel() {
         get() = _currentSport
 
     private var _sportsData: ArrayList<Sport> = ArrayList()
-    val sportsData: ArrayList<Sport>
+    val sportsData: List<Sport>
         get() = _sportsData
 
     init {
